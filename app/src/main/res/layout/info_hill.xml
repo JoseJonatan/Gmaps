@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingHorizontal="@dimen/common_padding_min"
+    android:paddingVertical="@dimen/common_padding_min">
+
+    <ImageView
+        android:id="@+id/imgHill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_terrain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <RatingBar
+        android:id="@+id/rbScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/common_padding_min"
+        android:progressTint="@color/purple_500"
+        tools:rating="4.2"
+        app:layout_constraintStart_toEndOf="@id/imgHill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imgHill"
+        app:layout_constraintBottom_toBottomOf="@id/imgHill"
+        style="?attr/ratingBarStyleIndicator"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:text="Gaya"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/imgHill"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:lines="4"
+        android:ellipsize="end"
+        android:textColor="#000000"
+        tools:text="Gestión y análisis de información, caracterización y seguimiento del cultivo de la vainilla en el país, de las diferentes regiones y de sus productores."
+        app:layout_constraintTop_toBottomOf="@id/tvName"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

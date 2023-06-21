@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/common_padding_min"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnArtistMep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btn_artist_map"
+        app:icon="@drawable/ic_map"
+        app:iconGravity="top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLiteList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btn_lite_list"
+        app:icon="@drawable/ic_format_list"
+        app:iconGravity="top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnArtistMep"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFormMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btn_form_map"
+        app:icon="@drawable/ic_fact_check"
+        app:iconGravity="top"
+        app:layout_constraintStart_toEndOf="@+id/btnArtistMep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+    
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/common_padding_min"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnArtistMep">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFirstMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Primer Mapa"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCameraView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vista y Camara"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnControlGestures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Control y gestos"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eventos"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMyLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mi ubicación"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMarker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marcadores"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShapes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shapes"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnGroundOverlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Superposiciones de Suelo"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLiteMods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modo Lite"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

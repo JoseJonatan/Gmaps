@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/drawable/ic_local_florist.xml" value="0.2555" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/drawable/ic_map.xml" value="0.131" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/drawable/ic_terrain.xml" value="0.2555" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/layout/activity_first_map.xml" value="0.25" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/layout/activity_firt_map.xml" value="0.25" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/layout/activity_lite_list.xml" value="0.25" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/layout/activity_lite_mode.xml" value="0.25" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/layout/info_hill.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Jonatan/Desktop/Proyectos/Android/examples - udemy/GMaps/app/src/main/res/layout/item_lite_list.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
